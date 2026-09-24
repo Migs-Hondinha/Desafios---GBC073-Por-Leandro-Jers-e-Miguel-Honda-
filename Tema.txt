@@ -1,0 +1,1 @@
+Predição por reforço de jogadas feitas pelo usuário
