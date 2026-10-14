@@ -13,7 +13,7 @@ antes da primeira execução. As candidatas usam decay 0,01, declarado no painel
 ## 1. Abrir a pasta
 
 ```powershell
-cd desafio3
+cd desafio3LeandroEMiguel
 uv venv --python 3.13 .venv
 $pythonTreino = "./.venv/Scripts/python.exe"
 uv pip install --python $pythonTreino -r requirements.txt
@@ -134,7 +134,7 @@ Get-Item treino.py, protocolo.py, relatorio.py, experimentos.csv, painel.pdf, sl
 Get-ChildItem logs
 ```
 
-Entregue a pasta `desafio3/`, incluindo código, CSV, logs, arquivos JSON do
+Entregue a pasta `desafio3LeandroEMiguel/`, incluindo código, CSV, logs, arquivos JSON do
 protocolo, PDFs e instruções. Mantenha acessíveis no repositório o dataset e
 o inicializador do trabalho 2, pois o código os importa. Não inclua `tmp/`,
 `__pycache__/` nem ambientes virtuais. Os checkpoints `.pt` permitem avaliar

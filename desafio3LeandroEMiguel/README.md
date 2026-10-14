@@ -12,7 +12,7 @@ Pré-requisitos: Python compatível com PyTorch e `uv`. No PowerShell, partindo
 da raiz do repositório clonado ou extraído do ZIP:
 
 ```powershell
-cd desafio3
+cd desafio3LeandroEMiguel
 uv venv --python 3.13 .venv
 uv pip install --python ./.venv/Scripts/python.exe -r requirements.txt
 ```
@@ -23,12 +23,12 @@ Execute com o ambiente recém-criado:
 ./.venv/Scripts/python.exe -X utf8 treino.py
 ```
 
-Os caminhos são relativos à pasta `desafio3`; não há dependência do computador
+Os caminhos são relativos à pasta `desafio3LeandroEMiguel`; não há dependência do computador
 do autor ou do Codex. `-X utf8` permite imprimir acentos corretamente.
 
 No Linux/macOS, substitua `./.venv/Scripts/python.exe` por `./.venv/bin/python`
 tanto na instalação quanto na execução. O dataset e o inicializador necessários
-estão versionados em `desafio2/`, ao lado de `desafio3/`. Baixe o repositório inteiro.
+estão versionados em `desafio2/`, ao lado de `desafio3LeandroEMiguel/`. Baixe o repositório inteiro.
 
 O comando padrão usa SGD com momento 0,9, taxa 0,05, lote 128, semente 0,
 100 passos e taxa constante. A rede tem quatro camadas lineares, com largura
@@ -124,7 +124,7 @@ aplicamos `0.5 * tanh(x)`. A última produz pontuações chamadas logits.
 não devemos aplicar tanh ou softmax na saída antes dessa função.
 
 As funções `ativacao` e `inicializar` são importadas do arquivo de vocês no
-trabalho 2. Portanto, mantenha as pastas `desafio2` e `desafio3` lado a lado.
+trabalho 2. Portanto, mantenha as pastas `desafio2` e `desafio3LeandroEMiguel` lado a lado.
 `treino.py` não depende do harness do professor nem de torchvision.
 
 ### 4. `make_optimizers`: escolhe como atualizar os pesos
@@ -207,7 +207,7 @@ atualizar a rede. A acurácia é a fração de classes previstas corretamente.
 ### 7. `append_csv`: salva as observações
 
 ```text
-desafio3/
+desafio3LeandroEMiguel/
   treino.py
   test_treino.py
   README.md
