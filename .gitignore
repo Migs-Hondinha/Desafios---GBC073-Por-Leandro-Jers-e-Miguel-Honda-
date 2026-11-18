@@ -1,0 +1,5 @@
+__pycache__/
+.superpowers/
+sumo/dados/
+sumo/.venv/
+dist/
